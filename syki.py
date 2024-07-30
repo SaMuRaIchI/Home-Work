@@ -1,9 +1,4 @@
-print('1st program')
-print((9 ** 0.5)*5)
-print('2nd program')
-print(9.99 > 9.98 and 1000 != 1000.1)
-print('3rd program')
-print((1234 // 51.5) + (5678 // 84))
-print((1234 % 1211) + (5678 % 5611))
-print('4th program')
-print(13.42 == 42.13 or 42.13 >= 13.42)
+kolwoDz = '15'
+kolwoTime = '1.5'
+name = 'Python'
+print('Курс:',name , '.Всего задач:',kolwoDz, '.Затрачено времени:', kolwoTime,'ч','.Среднее время выполнения задач:', 90//15,'мин.')
