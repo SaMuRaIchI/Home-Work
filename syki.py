@@ -1,4 +1,5 @@
 name = input("Здравствуйте , напишите имя: ")
+print('Количество символов:', len(name))
 print(name.upper())
 print(name.lower())
 print(name.replace(" ",""))
