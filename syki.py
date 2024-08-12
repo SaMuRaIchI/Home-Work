@@ -1,7 +1,12 @@
-name = input("Здравствуйте , напишите имя: ")
-print('Количество символов:', len(name))
-print(name.upper())
-print(name.lower())
-print(name.replace(" ",""))
-print(name[0])
-print(name[-1])
+first = int(input('Введите первое число: '))
+second = int(input('Введите второе число: '))
+third = int(input('Введите третье число: '))
+
+if first == second == third:
+    print('Вывод: 3')
+elif first == second or first == third or second == third:
+    print('Вывод: 2')
+else:
+    print('Вывод: 0')                                       #Делая эту домашку не внимательно прочитал условия
+                                                            # не внимательно прочитал что нужно ввести те цифры в консоль
+                                                            #То есть через команду input
