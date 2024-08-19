@@ -1,12 +1,15 @@
-first = int(input('Введите первое число: '))
-second = int(input('Введите второе число: '))
-third = int(input('Введите третье число: '))
+def get_matrix(n,m,value):
+    matrix = []
+    for i in range(n):
+        row = []
+        for j in range(m):
+            row.append(value)
+        matrix.append(row)
+    return matrix
+result1 = get_matrix(2, 2, 10)
+result2 = get_matrix(3, 5, 42)
+result3 = get_matrix(4, 2, 13)
 
-if first == second == third:
-    print('Вывод: 3')
-elif first == second or first == third or second == third:
-    print('Вывод: 2')
-else:
-    print('Вывод: 0')                                       #Делая эту домашку не внимательно прочитал условия
-                                                            # не внимательно прочитал что нужно ввести те цифры в консоль
-                                                            #То есть через команду input
+print(result1)
+print(result2)
+print(result3)
